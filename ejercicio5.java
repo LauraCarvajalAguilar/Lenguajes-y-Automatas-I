@@ -1,4 +1,3 @@
-
 import java.util.*;
 public class ejercicio5 {
 
@@ -11,17 +10,4 @@ public class ejercicio5 {
     	
       	System.out.println("Resultado.." + sumar_dig(n));
     }
-    
-    public static int sumar_dig(int n){//INICIO METODO
-    if (n == 0) {  //INICIO IF    //caso base
-            return n;
-                }//FIN IF
-   else {//INICIO ELSE
-            return sumar_dig (n / 10) + (n % 10);
-        }//FIN ELSE 
-                          }//FIN METODO
-    
-}
-
-
-	
+   
