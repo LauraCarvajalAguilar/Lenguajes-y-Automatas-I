@@ -23,3 +23,30 @@ document.getElementById("buscando").addEventListener("click",Buscar);
   }
   
 document.getElementById("mostrando").addEventListener("click",Mostrar);
+function Mostrar() {
+    var ms = document.getElementById("entrada").innerHTML;
+    var msEB = ms.match(/[a-z]+\s*(<=|>=|==)\s*[0-9]+\b/g);
+    document.getElementById("Mostrar").innerHTML=msEB;
+  }
+
+document.getElementById("eliminar").addEventListener("click",eliminando);
+function eliminando() {
+	var eli = document.getElementById("entrada").innerHTML;
+	var eliminarc = eli.replace(/\/\[\s\S]?\\/|([^\\:]|^)\/\/.$/gm,'$1')
+	document.getElementById("eliminado").innerHTML = eliminarc;
+}
+
+document.getElementById("Encriptar").addEventListener("click",encriptando);
+function encriptando() {
+  var sust = document.getElementById("entrada").innerHTML;
+
+	var remplazar = sust.replace(/[a|A]/g,"o");
+	remplazar = remplazar.replace(/[p|P]/g,"z");
+	remplazar = remplazar.replace(/[i|I]/g,"w");
+	remplazar = remplazar.replace(/[n|N]/g,"a");
+	remplazar = remplazar.replace(/[c|C]/g,"y");
+	remplazar = remplazar.replace(/[r|R]/g,"i");
+	remplazar = remplazar.replace(/[m|M]/g,"8");
+
+  document.getElementById("encriptando").innerHTML = remplazo;
+}
