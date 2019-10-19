@@ -4,6 +4,7 @@
     Mora Dzul Daniel Jesus
     Nahuat Pacheco Jazmin Mercedes
     Xooc Mis Andrea Guadalupe
+    Kauil Poot Leticia
 */
 
 document.getElementById("cuadro1").addEventListener("change", function(){
