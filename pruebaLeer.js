@@ -20,3 +20,23 @@
         <br>
         <textarea cols="100" rows="15" id="entrada"></textarea>
         <br> <br> <br>
+            
+        <button id="eliminar">Eliminar Comentarios</button><br>
+        <textarea id="eliminado" rows="15" cols="100"></textarea>
+        <br> <br> <br> <br>
+
+        <button id="buscando" >Mostar Expresiones Matematicas</button><br>
+        <textarea id="Buscar" rows="15" cols="100"></textarea>
+        <br> <br> <br>
+
+        <button id="mostrando" >Mostrar Expresiones Booleanas</button><br>
+        <textarea id="Mostrar" rows="15" cols="100"></textarea>
+        <br>
+        
+        <button id="Encriptar" >Encriptar Cadenas de Texto</button><br>
+        <textarea id="encriptando" rows="15" cols="100"></textarea>
+        <br> <br>
+
+        <script src="leer.js" type="text/javascript"></script>
+</body>
+</html>
