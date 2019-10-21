@@ -1,0 +1,20 @@
+h3 {
+    color: blue;  
+}
+ 
+body {
+    color: purple;
+    background-color: #ffcc99;
+    font-family: 'Comic Sans MS';
+ }
+
+ textarea {
+    border-style: inset;
+    border-color: black;
+    border-width: 6px;
+ }
+
+ button {
+    background-color: #ffff99;
+    border-color: black;
+ }
